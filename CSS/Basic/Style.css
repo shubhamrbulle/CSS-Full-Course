@@ -3,8 +3,18 @@
 /* selector {property: value;} */
 
 /* Example */
+*{
+    margin: 0;
+    padding: 0
+}
 h1 {
     color: blue;
+    text-align: center;   
+}
+p {
+    color: red;
     text-align: center;
-    
+}
+button {
+    color : white;
 }
