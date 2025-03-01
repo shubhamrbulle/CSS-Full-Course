@@ -14,8 +14,25 @@ body{
 h1{
     color: #ff0000; /* Specified by their Hexadecimal Color */
     text-align: center;
-    margin: 10px 10px 30px 10px;
+    margin: 30px;
     background-color: #00ff00;
+    border: 2px solid rgb(11, 102, 239);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(6, 215, 252);
+    cursor: pointer;
+}
+
+h1:hover{
+    color:#0000ff; /* Specified by their Hexadecimal Color */
+    text-align: center;
+    margin : 30px;
+    background-color: #ffff00;
+    border: 2px solid rgb(11, 102, 239);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(10, 213, 249, 0.947);
+    cursor: pointer;
 }
 
 .box{
@@ -25,6 +42,7 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction:column; 
+    cursor: pointer;
 }
 
 #box1{
@@ -34,9 +52,10 @@ h1{
     margin: 30px;
     padding: 20px;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgba(239, 7, 7, 0.959);
     border-radius: 10px;
     box-shadow: 5px 5px 5px black; 
+    cursor: pointer;
 }
 
 #box2{
@@ -49,6 +68,105 @@ h1{
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+#box3{
+    background-color:#10F39A; /* Specified by their Hexadecimal Color */
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;    
+}
+#box4{
+    background-color:yellow; /* Specified by their Name Color */
+    width: 50%;
+    height: 50%;
+    margin: 30px;
+    padding: 20px;
+    text-align:center;
+    border : 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px snow;
+    cursor: pointer;
+}
+#box5{
+    background-color:rgb(0,255,0); /* Specified by their RGB Color */
+    width: 50%;
+    height: 50%;
+    margin: 30px;
+    padding: 20px;
+    text-align:center;
+    border : 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px snow;
+    cursor: pointer;
+}
+
+#box1:hover{
+    background-color: #ff0000; /* Specified by their Hexadecimal Color */
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+#box2:hover{
+    background-color: orange; /* Specified by their Name Color */
+    width: 100%;
+    height:100%;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius:10;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+#box3:hover{
+    background-color:rgba(234, 8, 234, 0.988); /* Specified by their RGB Color */
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+#box4:hover{
+    background-color:aqua; /* Specified by their Hexadecimal Color */
+    width:100%;
+    height:100%;
+    margin: 30px;
+    padding: 20px;
+    text-align:center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px snow;
+    cursor: pointer;
+}
+#box5:hover{
+    background-color:rgb(0,0,255); /* Specified by their RGB Color */
+    width: 25%;
+    height: 25%;
+    margin: 30px;
+    padding: 20px;
+    text-align:center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px snow;
+    cursor: pointer;
 }
 
 .button{
@@ -74,3 +192,35 @@ h1{
     color: white;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.left{
+    background-color: #ff0000; /* Specified by their Hexadecimal Color */
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+.right{
+    background-color: #00ff00; /* Specified by their Hexadecimal Color */
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
